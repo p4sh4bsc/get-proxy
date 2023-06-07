@@ -46,7 +46,7 @@ def main():
                 driver.get(url)
 
 
-                time.sleep(65)
+                time.sleep(15)
                 with open("index.html", "w", encoding="utf-8") as file:
                     file.write(driver.page_source)
                     
